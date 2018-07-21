@@ -9,7 +9,7 @@ public class Lab05A {
 
 			System.err.println("I am changing the code3");
 
-			System.out.println("commit from eclipse");
+			System.out.println("commit from eclipse2");
 
 			SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 			Session session = sessionFactory.openSession();
