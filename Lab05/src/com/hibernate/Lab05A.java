@@ -6,7 +6,11 @@ import org.hibernate.cfg.Configuration;
 public class Lab05A {
 	public static void main(String args[]) {
 		try{
-			System.err.println("I am changing the code2");
+
+			System.err.println("I am changing the code3");
+
+			
+
 			SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 			Session session = sessionFactory.openSession();
 			Transaction tx = session.beginTransaction();
